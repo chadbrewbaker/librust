@@ -1,0 +1,15 @@
+
+
+
+[package]
+name = "librust"
+version = "0.1.0"
+authors = ["Chad Brewbaker <chad@flyingdogsolutions.com>"]
+
+# [excerpt]
+[dependencies]
+libc = "*"
+
+[lib]
+name = "v0_baseline"
+crate-type = ["staticlib"]

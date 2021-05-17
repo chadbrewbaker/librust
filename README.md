@@ -21,6 +21,14 @@ return 0;
 }
 ```
 
+Notes:
+
+
+https://github.com/parallel-rust-cpp/shortcut-comparison
+
+
+
+
 https://doc.rust-lang.org/std/collections/hash_map/struct.HashMap.html
 
 
