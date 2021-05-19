@@ -4,4 +4,4 @@
 
 
 RUSTFLAGS="-C target-feature=+crt-static" cargo build --lib --release  
-clang main.c -l v0_baseline -L  target/release -o hello  -lpthread -ldl 
+clang -Og main.c -l v0_baseline -L  target/release -o hello  -lpthread -ldl 

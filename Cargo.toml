@@ -13,3 +13,6 @@ libc = "*"
 [lib]
 name = "v0_baseline"
 crate-type = ["staticlib"]
+
+[profile.release]
+debug = true
